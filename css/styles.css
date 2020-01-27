@@ -1,0 +1,101 @@
+body {
+    background: #fff;
+}
+h1 {
+    font-size: 22px;
+    text-align: center;
+}
+h2 {
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+hr {
+    margin-top: 10px;
+}
+.glyphicon {
+    cursor: pointer;
+}
+.main {
+    width: 800px;
+    margin: auto;
+    padding: 10px 0;
+}
+.add_form {
+    width: 500px;
+    margin: auto;
+}
+.authorization_form {
+    width: 350px;
+    margin: auto;
+}
+.flex-block {
+    display: flex;
+}
+.flex-item-filter {
+    padding: 0 0 0px 10px;
+}
+.flex-item {
+    padding: 0 0 0px 10px;
+    width: 20%;
+    font-size: 12px;
+}
+.flex-item-head {
+    font-size: 12px;
+    padding: 0px 0 0px 10px;
+    width: 25%;
+    line-height: 12px;
+    margin: 0px;
+    font-weight: bold;
+}
+.flex-item-head-nowrap {
+    font-size: 12px;
+    padding: 0px 0 0px 10px;
+    width: 25%;
+    line-height: 12px;
+    margin: 0px;
+    white-space: nowrap;
+    font-weight: bold;
+}
+.flex-item-delete {
+    text-align: right;
+    width: 20%;
+}
+.flex-item-right {
+    margin-left: auto;
+}
+input[type=number] {
+    width: 130px;
+}
+input[type=text], input[type=email], input[type=date], input[type=password] {
+    margin-top: 15px;
+}
+#search {
+    margin-top: 0px;
+    margin-left: 220px;
+    font-size: 14px;
+    width: 300px;
+}
+#tasks {
+    font-size: 12px;
+}
+.add_form textarea {
+    margin: 15px 0 0px 0;
+}
+.counter {
+    font-size: 12px;
+    margin-bottom: 15px;
+    color: #82757d;
+}
+#results, #auth_results {
+    font-size: 14px;
+}
+.btn-warning, .btn-primary, .btn-danger {
+    font-size: 14px;
+}
+#page_tasks .btn-success, #page_auth .btn-success {
+    margin-top: 15px;
+}
+.success, .error {
+    padding-top: 10px;
+}
